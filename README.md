@@ -52,22 +52,23 @@ We perform several specification tests to determine the most appropriate model:
 
 To begin our analysis, we estimated three models using firm characteristics (age, size, advertising intensity, and debt-equity ratio) as independent variables. 
 
-1.	Pooled OLS Model:
+1. Pooled OLS Model:
+
 - ROE = 0.0644 - 0.0010*Age + 0.0196*Size + 0.2444*Adv_Intensity + 0.0003*DebtEquity
-        - R-squared: 0.0188
-        - All variables significant at 5% level except debt-equity ratio
+ - R-squared: 0.0188
+ - All variables significant at 5% level except debt-equity ratio
 
 2. Random Effects Model:
 - ROE = 0.0432 - 0.001*Age + 0.025*Size + 0.1105*Adv_Intensity + 0.0002*DebtEquity
-        - R-squared (within): 0.0116
-        - R-squared (between): 0.0250
-        - Age and size significant at 5% level
+ - R-squared (within): 0.0116
+ - R-squared (between): 0.0250
+ - Age and size significant at 5% level
 
 3. Fixed Effects Model:
 - ROE = -0.2062 + 0.0031*Age + 0.0445*Size - 0.0825*Adv_Intensity + 0.0002*DebtEquity
-        - R-squared (within): 0.0139
-        - R-squared (between): 0.0003
-        - Only size significant at 5% level
+ - R-squared (within): 0.0139
+ - R-squared (between): 0.0003
+ - Only size significant at 5% level
 
 The Breusch-Pagan LM test (p-value < 0.05) indicated that the Random Effects model is preferred over the Pooled OLS model, suggesting significant firm-specific heterogeneity.
 
