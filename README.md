@@ -21,7 +21,7 @@ While existing literature has explored the relationship between corporate govern
 3. Do these relationships exhibit non-linear patterns?
 4. Have there been significant changes in these relationships over time, particularly before and after 2005?
 
-# D. Data and Methodology
+# D. Data
 
 ## 1. Data Source
 
