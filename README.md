@@ -80,8 +80,9 @@ The Hausman test (p-value < 0.05) led us to select the Fixed Effects model over 
 We then expanded our model to include ownership variables. 
 
 - ROE = -0.2204 + 0.0033*Age + 0.0442*Size - 0.0889*Adv_Intensity + 0.000028*DebtEquity + 0.000244*Indian_Promoter - 0.00028*Foreign_Promoter + 0.000224*Institution
-        - R-squared (within): 0.0140
-        - Joint significance test of ownership variables: F-stat = 0.35, p-value = 0.7913
+
+    - R-squared (within): 0.0140
+    - Joint significance test of ownership variables: F-stat = 0.35, p-value = 0.7913
 
 The results showed that ownership variables were not jointly significant in explaining ROE. This suggests that, contrary to some literature, ownership structure might not be a primary driver of firm performance in our sample.
 
@@ -90,8 +91,8 @@ The results showed that ownership variables were not jointly significant in expl
 To test for potential non-linear relationships between ownership and performance, we added squared terms for each ownership variable. 
 
 - ROE = -0.2216 + 0.0033*Age + 0.043*Size - 0.095*Adv_Intensity + 0.000029*DebtEquity + 0.00039*Indian_Promoter - 0.00151*Foreign_Promoter + 0.00154*Institution - 0.00000263*Indian2 + 0.000017*For2 - 0.000027*Inst2
-        - R-squared (within): 0.0148
-        - Joint significance test of squared terms: F-stat = 1.08, p-value = 0.3558
+    - R-squared (within): 0.0148
+    - Joint significance test of squared terms: F-stat = 1.08, p-value = 0.3558
 
 The squared terms were not jointly significant, suggesting that there are no significant non-linear relationships between ownership concentration and firm performance.
 
