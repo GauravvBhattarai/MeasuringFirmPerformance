@@ -56,20 +56,20 @@ To begin our analysis, we estimated three models using firm characteristics (age
 1. Pooled OLS Model:
 
 - ROE = 0.0644 - 0.0010*Age + 0.0196*Size + 0.2444*Adv_Intensity + 0.0003*DebtEquity
- - R-squared: 0.0188
- - All variables significant at 5% level except debt-equity ratio
+    - R-squared: 0.0188
+    - All variables significant at 5% level except debt-equity ratio
 
 2. Random Effects Model:
 - ROE = 0.0432 - 0.001*Age + 0.025*Size + 0.1105*Adv_Intensity + 0.0002*DebtEquity
- - R-squared (within): 0.0116
- - R-squared (between): 0.0250
- - Age and size significant at 5% level
+    - R-squared (within): 0.0116
+    - R-squared (between): 0.0250
+    - Age and size significant at 5% level
 
 3. Fixed Effects Model:
 - ROE = -0.2062 + 0.0031*Age + 0.0445*Size - 0.0825*Adv_Intensity + 0.0002*DebtEquity
- - R-squared (within): 0.0139
- - R-squared (between): 0.0003
- - Only size significant at 5% level
+    - R-squared (within): 0.0139
+    - R-squared (between): 0.0003
+    - Only size significant at 5% level
 
 The Breusch-Pagan LM test (p-value < 0.05) indicated that the Random Effects model is preferred over the Pooled OLS model, suggesting significant firm-specific heterogeneity.
 
@@ -80,7 +80,6 @@ The Hausman test (p-value < 0.05) led us to select the Fixed Effects model over 
 We then expanded our model to include ownership variables. 
 
 - ROE = -0.2204 + 0.0033*Age + 0.0442*Size - 0.0889*Adv_Intensity + 0.000028*DebtEquity + 0.000244*Indian_Promoter - 0.00028*Foreign_Promoter + 0.000224*Institution
-
     - R-squared (within): 0.0140
     - Joint significance test of ownership variables: F-stat = 0.35, p-value = 0.7913
 
