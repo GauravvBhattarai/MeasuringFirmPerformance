@@ -31,9 +31,10 @@ The dataset comprises financial and ownership information from 968 Indian manufa
 
 - Dependent Variable: Return on Equity (ROE)
 - Independent Variables: 
-i. Firm Characteristics: Age, Size, Advertising Intensity, Debt-Equity Ratio
-ii. Ownership Variables: Indian Promoter Shareholding, Foreign Promoter Shareholding, Institutional Shareholding
-iii. Additional Variables: Squares of ownership variables to test for non-linear relationships, Year dummies to capture time effects
+
+    - Firm Characteristics: Age, Size, Advertising Intensity, Debt-Equity Ratio
+    - Ownership Variables: Indian Promoter Shareholding, Foreign Promoter Shareholding, Institutional Shareholding
+    - Additional Variables: Squares of ownership variables to test for non-linear relationships, Year dummies to capture time effects
 
 # E. Methodology
 
